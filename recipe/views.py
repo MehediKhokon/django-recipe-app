@@ -11,3 +11,4 @@ class RecipeView(generics.ListAPIView):
 class TourView(generics.ListAPIView):
 	queryset = Tour.objects.all().order_by('created')
 	serializer_class = TourSerializer
+	

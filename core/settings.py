@@ -29,6 +29,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+TIME_ZONE = 'Asia/Dhaka'
 
 # Application definition
 

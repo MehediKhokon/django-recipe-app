@@ -9,5 +9,5 @@ class RecipeSerializer(serializers.ModelSerializer):
 
 class TourSerializer(serializers.ModelSerializer):
 	class Meta:
-		models = Tour
+		model = Tour
 		fields = ['id', 'name', 'information', 'image', 'created']
